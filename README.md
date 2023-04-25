@@ -30,7 +30,7 @@ git clone https://github.com/itsmoe15/printf.git
 ```
 
 ```c
-#include "printf.h"
+#include "_printf.c"
 ```
 
 ## Usage
@@ -58,8 +58,6 @@ The answer is 42
 The `printf` function provided by this library supports the following additional formatting options:
 
 - `%b`: Binary output of an integer
-- `%x`: Hexadecimal output of an integer
-- `%o`: Octal output of an integer
 - `%f`: Floating-point output with a specified number of decimal places
 - `%c`: Character output
 - `%s`: String output
@@ -70,6 +68,3 @@ These options can be combined with the standard format specifiers, such as `%d` 
 
 Contributions to this project are welcome! Feel free to open a pull request or an issue if you have any suggestions or bug reports.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
